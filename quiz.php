@@ -22,7 +22,7 @@ try {
 
     if (isset($_POST['answer'])) {
         $_SESSION['answers'][$number] = $_POST['answer'];
-
+        $number++;
     }
 
     // Has user answered all items
