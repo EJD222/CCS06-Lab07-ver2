@@ -8,17 +8,17 @@ session_start();
    the session variables.*/
 
 try {
-	if (isset($_POST['complete_name']) && isset($_POST['email']) && isset($_POST['birthdate'])) {
-		$_SESSION['user_fullname'] = $_POST['complete_name'];
-		$_SESSION['user_email'] = $_POST['email'];
-		$_SESSION['user_birthdate'] = $_POST['birthdate'];
+    if (isset($_POST['complete_name']) && isset($_POST['email']) && isset($_POST['birthdate'])) {
+        $_SESSION['user_fullname'] = $_POST['complete_name'];
+        $_SESSION['user_email'] = $_POST['email'];
+        $_SESSION['user_birthdate'] = $_POST['birthdate'];
 
-		header('Location: quiz.php');
-		exit;
-	} else {
-		throw new Exception('There is a missing basic information.');
-	}
+        header('Location: quiz.php');
+        exit;
+    } else {
+        throw new Exception('There is a missing basic information.');
+    }
 } catch (Exception $e) {
-	echo '<h1>An error occurred:</h1>';
-	echo '<p>' . $e->getMessage() . '</p>';
+    echo '<h1>An error occurred:</h1>';
+    echo '<p>' . $e->getMessage() . '</p>';
 }
