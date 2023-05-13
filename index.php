@@ -17,16 +17,16 @@ session_destroy();
 	<title>Register</title>
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
 	<style>
 		* {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Inter', sans-serif;
-        }
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: 'Inter', sans-serif;
+		}
 
 		body {
 			background-color: #F7F7F7;
@@ -34,9 +34,9 @@ session_destroy();
 
 		.maincontainer {
 			display: flex;
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh;
+			justify-content: center; 
+			align-items: center; 
+			height: 100vh;
 		}
 
 		.registrationcontainer {
@@ -110,7 +110,7 @@ session_destroy();
 
 		form button:hover {
 			background-color: #3E8E41;
-        }
+		}
 	</style>
 
 </head>

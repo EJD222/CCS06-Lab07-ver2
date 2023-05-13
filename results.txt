@@ -1,15 +1,15 @@
 Complete Name: Kim Dahyun
 Email: kimdahyun@jype.com
-Birthdate: 1998-04-19
-Score: 1 out of 10
+Birthdate: 2002-09-22
+Score: 3 out of 10
 Answers:
-1. a (incorrect)
-2. c (incorrect)
+1. d (incorrect)
+2. d (correct)
 3. d (incorrect)
 4. c (incorrect)
 5. d (incorrect)
-6. c (incorrect)
-7. b (incorrect)
-8. d (incorrect)
-9. b (incorrect)
-10. c (correct)
+6. d (correct)
+7. c (correct)
+8. b (incorrect)
+9. a (incorrect)
+10. d (incorrect)
