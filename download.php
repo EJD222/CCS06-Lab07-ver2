@@ -13,8 +13,8 @@ $questionSize = $manager->getQuestionSize();
 $results_file = fopen('results.txt', 'w');
 
 if (!$results_file) {
-    echo 'An error occurred while creating the file.';
-    exit;
+	echo 'An error occurred while creating the file.';
+	exit;
 }
 
 // Write the user's information and score to the file
@@ -26,11 +26,11 @@ fwrite($results_file, "Score: {$score} out of {$questionSize}\n");
 // Write the user's answers to the file
 fwrite($results_file, "Answers:\n");
 foreach ($_SESSION['answers'] as $index => $answer) {
-    $question = $manager->retrieveQuestion($index);
-    if ($question !== null) {
-        $is_correct = ($answer === $question->getAnswer()) ? 'correct' : 'incorrect';
-        fwrite($results_file, ($index) . ". ". $answer . " (" . $is_correct . ")\n");
-    }
+	$question = $manager->retrieveQuestion($index);
+	if ($question !== null) {
+		$is_correct = ($answer === $question->getAnswer()) ? 'correct' : 'incorrect';
+		fwrite($results_file, ($index) . ". ". $answer . " (" . $is_correct . ")\n");
+	}
 }
 
 // Close the results file and send it as a downloadabe file

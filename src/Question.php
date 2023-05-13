@@ -33,7 +33,7 @@ class Question
 	}
 
 	public function getAnswer()
-    {
-        return $this->answer;
-    }
+	{
+		return $this->answer;
+	}
 }
